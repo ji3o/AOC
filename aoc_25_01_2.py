@@ -1,7 +1,9 @@
 from aoc_input_call import get_aoc_input
 
-def process_instructions(instructions, start=50, list_size=100):
-    position = start
+def process_instructions(instructions):
+    
+    position = 50
+    list_size = 100
     counter = 0
     
     for instruction in instructions:
@@ -26,4 +28,4 @@ instructions = [line.strip() for line in data if line.strip()]
 
 final_position, count = process_instructions(instructions)
 print(f"Final position: {final_position}")
-print(f"Counter (times 0 was seen during movement): {count}")
+print(f"Counter: {count}")

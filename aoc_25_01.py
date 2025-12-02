@@ -1,8 +1,9 @@
 from aoc_input_call import get_aoc_input
 
-def process_instructions(instructions, start=50, list_size=100):
+def process_instructions(instructions):
     
-    position = start
+    position = 50
+    list_size = 100
     counter = 0
     
     for instruction in instructions:
@@ -23,4 +24,4 @@ data = get_aoc_input(2025, 1)
 
 final_position, count = process_instructions(data)
 print(f"Final position: {final_position}")
-print(f"Counter (times at 0): {count}")
+print(f"Counter: {count}")
