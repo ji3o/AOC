@@ -205,3 +205,12 @@ cython_debug/
 marimo/_static/
 marimo/_lsp/
 __marimo__/
+SK/
+SK/sk.txt
+aoc_25_02_2alt_claude.py
+aoc_25_02_2alt_gpt.py
+test
+aoc_25_02_2_time.py
+.gitignore
+aoc_25_02_2_gpt.py
+aoc_25_02_2_claude.py
