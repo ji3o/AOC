@@ -9,7 +9,7 @@ def max_subsequence_number(line: str, k: int) -> int:
 
     chosen = []
     start = 0
-    
+
     for pos in range(k):
         remaining_positions = k - pos
         last_start = n - remaining_positions
